@@ -1,0 +1,37 @@
+{
+  "name": "gitbook-plugin-sunchaser-code",
+  "version": "1.0.0",
+  "description": "Gitbook plugin to change style of code blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunchaser-lilu/gitbook-plugin-sunchaser-code.git"
+  },
+  "keywords": [
+    "gitbook",
+    "github",
+    "sunchaser-code",
+    "plugin"
+  ],
+  "author": "sunchaser-lilu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunchaser-lilu/gitbook-plugin-sunchaser-code/issues"
+  },
+  "homepage": "https://github.com/sunchaser-lilu/gitbook-plugin-sunchaser-code#readme",
+  "engines": {
+    "gitbook": ">2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "copyButtons": {
+        "default": true,
+        "title": "Adds buttons to copy the commands",
+        "type": "boolean"
+      }
+    }
+  }
+}

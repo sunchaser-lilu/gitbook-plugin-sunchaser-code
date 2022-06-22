@@ -1,0 +1,10 @@
+.vscode/
+/logs/
+.DS_Store
+
+.idea
+*.iws
+*.iml
+*.ipr
+
+node_modules/
